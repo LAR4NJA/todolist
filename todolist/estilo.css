@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(32, 130, 187);
+    width: 100%vh;
+    height: 100%vh;
+   
+}
+
+
+.tudo{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.inf{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    width: 70vh;
+    flex-direction: column;
+    height: 80vh;
+
+}
+
+button{
+    background-color: rgb(32, 130, 187);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+input{
+    height: 44px;
+    width: 70%;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+li button {
+   
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 80px;
+}
+
+
+
+li button.edit {
+    background-color: #007bff;
+    margin-left: 10px;
+}
+
+li button.edit:hover {
+    background-color: #0056b3;
+}
+
